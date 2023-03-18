@@ -1,0 +1,46 @@
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background: #e6ffff;
+}
+.main-div button{
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+.about-user{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.about-user h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.about-user p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px
+}
+.main-post{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.main-post div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background: beige;
+}
+.post{
+    background: aquamarine;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.comments{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: aqua;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+.comments div{
+    width: 22%;
+    border: 1px solid black;
+    border-radius:  5px;
+    box-sizing: border-box;
+    padding: 10px;
+}

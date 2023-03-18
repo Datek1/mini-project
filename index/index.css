@@ -1,0 +1,24 @@
+.users{
+    display: flex;
+    flex-wrap: wrap ;
+    background: #e6ffff;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+.user{
+    height: 100px;
+    width: 48%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.user h3, a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
